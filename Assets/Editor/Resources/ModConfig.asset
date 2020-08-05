@@ -14,7 +14,10 @@ MonoBehaviour:
   id: mindlock
   title: Mindlock
   author: Goofy
-  description: A new manual challenge.
+  description: 'Press a sequence of 5 buttons in the correct order.
+
+
+    TP supported.'
   version: 1.0
   outputFolder: build
   previewImage: {fileID: 2800000, guid: d80aa1344661a14429306fb7306e99a1, type: 3}
