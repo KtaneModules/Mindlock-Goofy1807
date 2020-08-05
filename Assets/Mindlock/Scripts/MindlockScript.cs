@@ -32,7 +32,8 @@ public class MindlockScript : MonoBehaviour
     {
         return delegate
         {
-            if (moduleSolved)
+            Audio.PlayGameSoundAtTransform(KMSoundOverride.SoundEffect.ButtonPress, transform);
+            if (moduleSolved || pointsPressed.Contains(point))
                 return false;
 
             if (pointsAmount == 5)
